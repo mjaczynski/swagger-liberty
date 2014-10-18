@@ -1,0 +1,14 @@
+<server description="swagger-liberty">
+
+    <featureManager>
+    	<feature>jaxrs-1.1</feature>
+    </featureManager>
+
+    <httpEndpoint httpPort="9080" httpsPort="9443" id="defaultHttpEndpoint"/>
+
+
+    <applicationMonitor updateTrigger="mbean"/>
+
+    <webApplication id="swagger-liberty" location="swagger-liberty.war" name="swagger-liberty"/>
+    
+</server>
