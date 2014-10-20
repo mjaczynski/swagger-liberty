@@ -2,6 +2,7 @@
 
 
 This project shows how to define a Swagger JAX-RS REST API using IBM WebSphere Liberty Application Server. The server can also be pushed to IBM Bluemix PaaS as an optional step.
+More details can be found on my [blog](http://www.mycloudtips.com/2014/10/jax-rs-swagger-liberty-bluemix.html)
 
 ## Prerequisites
 
